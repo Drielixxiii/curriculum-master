@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon.ico"
+    />
+    <title>Drieli de Freitas - Frontend developer</title>
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Drieli</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link"
+                ><i class="uil uil-estate nav__icon"></i> Inicio</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#sobre" class="nav__link"
+                ><i class="uil uil-user nav__icon"></i> Sobre mim</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#habilidades" class="nav__link"
+                ><i class="uil uil-lightbulb-alt nav__icon"></i> Habilidades</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#servicos" class="nav__link"
+                ><i class="uil uil-briefcase-alt nav__icon"></i> Serviços</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link"
+                ><i class="uil uil-scenery nav__icon"></i> Portfólio</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#contato" class="nav__link"
+                ><i class="uil uil-message nav__icon"></i> Fale comigo</a
+              >
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/drieli-freitas-380428168/"
+                target="_blank"
+                class="home__social-icon"
+                ><i class="uil uil-linkedin"></i
+              ></a>
+              <a
+                href="https://github.com/Drielixxiii"
+                target="_blank"
+                class="home__social-icon"
+                ><i class="uil uil-github"></i
+              ></a>
+              <!-- <a href="" target="_blank" class="home__social-icon"><i class="uil uil-dribbble"></i></a> -->
+            </div>
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+
+                  <!-- <image class="home__blob-img" x="5" y="6" xlink:href="assets/img/eu.png" /> -->
+                </g>
+              </svg>
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Oi, sou eu Drieli.</h1>
+              <h3 class="home__subtitle">Frontend developer</h3>
+              <p class="home__description">
+                Estudante de Análise e desenvolvimento de sistemas no quarto
+                período, experiência como frontend develop.
+              </p>
+              <a
+                href="https://wa.me/5521986884256"
+                target="_blank"
+                class="button button--flex"
+                >Fale comigo <i class="uil uil-message button__icon"></i
+              ></a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#sobre" class="home__scroll-button button--flex"
+              ><i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Role pra baixo</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="sobre section" id="sobre">
+        <h2 class="section__title">Sobre mim</h2>
+        <span class="section__subtitle">Introdução</span>
+        <div class="sobre__container container grid">
+          <img src="assets/img/sobre.jpg" alt="" class="sobre__img" />
+          <div class="sobre__data">
+            <p class="sobre__description">
+              Web developer com experiência em tecnologias HTML, CSS e JS.
+            </p>
+            <div class="sobre__info">
+              <div>
+                <span class="sobre__info-title">01+</span>
+                <span class="sobre__info-nome">Anos de <br />experiência</span>
+              </div>
+              <div>
+                <span class="sobre__info-title">05+</span>
+                <span class="sobre__info-nome"
+                  >Projetos <br />
+                  Completos</span
+                >
+              </div>
+              <div>
+                <span class="sobre__info-title">01</span>
+                <span class="sobre__info-nome">Companhia <br />trabalhada</span>
+              </div>
+            </div>
+            <div class="sobre__buttons">
+              <a
+                download=""
+                href="assets/pdf/curriculo-Drieli.pdf"
+                class="button button-flex"
+                >Ver currículo <i class="uil uil-download-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="habilidades section" id="habilidades">
+        <h2 class="section__title">Habilidades</h2>
+        <span class="section__subtitle">Meus níveis técnicos</span>
+
+        <div class="habilidades__container container grid">
+          <div>
+            <!-- FRONTEND -->
+            <div class="habilidades__content habilidades__open">
+              <div class="habilidades__header">
+                <i class="uil uil-arrow habilidades__icon"></i>
+
+                <div>
+                  <h1 class="habilidades__title">Frontend Developer</h1>
+                  <span class="habilidades__subtitle"
+                    >1 ano de experiência</span
+                  >
+                </div>
+
+                <i class="uil uil-angle-down habilidades__arrow"></i>
+              </div>
+
+              <div class="habilidades__lista grid">
+                <div class="habilidades__data">
+                  <div class="habilidades__title">
+                    <h3 class="habilidades__name">HTML5</h3>
+                    <span class="habilidades__number">70%</span>
+                  </div>
+                  <div class="habilidades__barra">
+                    <span class="habilidades__porcent habilidades__html"></span>
+                  </div>
+                </div>
+
+                <div class="habilidades__data">
+                  <div class="habilidades__title">
+                    <h3 class="habilidades__name">CSS3</h3>
+                    <span class="habilidades__number">60%</span>
+                  </div>
+                  <div class="habilidades__barra">
+                    <span class="habilidades__porcent habilidades__css"></span>
+                  </div>
+                </div>
+
+                <div class="habilidades__data">
+                  <div class="habilidades__title">
+                    <h3 class="habilidades__name">JavaScript</h3>
+                    <span class="habilidades__number">10%</span>
+                  </div>
+                  <div class="habilidades__barra">
+                    <span class="habilidades__porcent habilidades__js"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <!-- DESIGN -->
+            <div class="habilidades__content habilidades__close">
+              <div class="habilidades__header">
+                <i class="uil uil-palette habilidades__icon"></i>
+                <div>
+                  <h1 class="habilidades__title">Design</h1>
+                  <span class="habilidades__subtitle"
+                    >4 anos de experiência</span
+                  >
+                </div>
+                <i class="uil uil-angle-down habilidades__arrow"></i>
+              </div>
+
+              <div class="habilidades__lista grid">
+                <div class="habilidades__data">
+                  <div class="habilidades__title">
+                    <h3 class="habilidades__name">Photoshop</h3>
+                    <span class="habilidades__number">90%</span>
+                  </div>
+                  <div class="habilidades__barra">
+                    <span class="habilidades__porcent habilidades__ps"></span>
+                  </div>
+                </div>
+
+                <div class="habilidades__data">
+                  <div class="habilidades__title">
+                    <h3 class="habilidades__name">Illustrator</h3>
+                    <span class="habilidades__number">70%</span>
+                  </div>
+                  <div class="habilidades__barra">
+                    <span class="habilidades__porcent habilidades__ai"></span>
+                  </div>
+                </div>
+
+                <div class="habilidades__data">
+                  <div class="habilidades__title">
+                    <h3 class="habilidades__name">InDesign</h3>
+                    <span class="habilidades__number">60%</span>
+                  </div>
+                  <div class="habilidades__barra">
+                    <span class="habilidades__porcent habilidades__id"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="qualificacao section">
+        <h2 class="section__title">Qualificações</h2>
+        <span class="section__subtitle">Minha jornada pessoal</span>
+
+        <div class="qualificacao__container container">
+          <div class="qualificacao__tabs">
+            <div
+              class="qualificacao__button button--flex qualificacao__active"
+              data-target="#educacao"
+            >
+              <i class="uil uil-graduation-cap qualificacao__icon"></i>
+              Educação
+            </div>
+
+            <div
+              class="qualificacao__button button--flex"
+              data-target="#trabalho"
+            >
+              <i class="uil uil-briefcase qualificacao__icon"></i>
+              Trabalho
+            </div>
+          </div>
+
+          <div class="qualificacao__sections">
+            <!-- EDUCAÇÃO -->
+            <div
+              class="qualificacao__content qualificacao__active"
+              data-content
+              id="educacao"
+            >
+              <div class="qualificacao__data">
+                <div>
+                  <h3 class="qualificacao__title">
+                    Análise e desenvolvimento de sistemas
+                  </h3>
+                  <span class="qualificacao__subtitle">UniCarioca</span>
+                  <div class="qualificacao__calendario">
+                    <i class="uil uil-schedule"></i>
+                    2019 - 2022
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualificacao__rounder"></span>
+                  <span class="qualificacao__line"></span>
+                </div>
+              </div>
+
+              <div class="qualificacao__data">
+                <div></div>
+
+                <div>
+                  <span class="qualificacao__rounder"></span>
+                  <span class="qualificacao__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualificacao__title">
+                    Design Gráfico e Web Design
+                  </h3>
+                  <span class="qualificacao__subtitle">Zion</span>
+                  <div class="qualificacao__calendario">
+                    <i class="uil uil-schedule"></i>
+                    2017 - 2018
+                  </div>
+                </div>
+              </div>
+
+              <div class="qualificacao__data">
+                <div>
+                  <h3 class="qualificacao__title">Inglês Fluente</h3>
+                  <span class="qualificacao__subtitle">Wizard</span>
+                  <div class="qualificacao__calendario">
+                    <i class="uil uil-schedule"></i>
+                    2013 - 2020
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualificacao__rounder"></span>
+                  <!-- <span class="qualificacao__line"></span> -->
+                </div>
+              </div>
+            </div>
+
+            <!-- TRABALHO -->
+            <div class="qualificacao__content" data-content id="trabalho">
+              <div class="qualificacao__data">
+                <div>
+                  <h3 class="qualificacao__title">Frontend Developer</h3>
+                  <span class="qualificacao__subtitle"
+                    >NTL - Nova Tecnologia</span
+                  >
+                  <div class="qualificacao__calendario">
+                    <i class="uil uil-schedule"></i>
+                    2020 - 2022
+                  </div>
+                </div>
+                <div>
+                  <span class="qualificacao__rounder"></span>
+                  <span class="qualificacao__line"></span>
+                </div>
+              </div>
+
+              <!-- <div class="qualificacao__data">
+                <div></div>
+
+                <div>
+                  <span class="qualificacao__rounder"></span>
+                  <span class="qualificacao__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualificacao__title">nada</h3>
+                  <span class="qualificacao__subtitle">nada</span>
+                  <div class="qualificacao__calendario">
+                    <i class="uil uil-schedule"></i>
+                    nada
+                  </div>
+                </div>
+              </div>
+
+              <div class="qualificacao__data">
+                <div>
+                  <h3 class="qualificacao__title">nada</h3>
+                  <span class="qualificacao__subtitle">nada</span>
+                  <div class="qualificacao__calendario">
+                    <i class="uil uil-schedule"></i>
+                    nada
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualificacao__rounder"></span>
+                   <span class="qualificacao__line"></span>  ESSA LINHA TEM QUE SER COMENTADA SE FOR O ULTIMO PONTO
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="servicos section" id="servicos">
+        <h2 class="section__title">Serviços</h2>
+        <span class="section__subtitle">O que ofereço</span>
+
+        <div class="servicos__container container grid">
+          <div class="servicos__content">
+            <div>
+              <i class="uil uil-window-grid servicos__icon"></i>
+              <h3 class="servicos__title">Frontend Develop</h3>
+            </div>
+
+            <span
+              class="
+                button button--flex button--small button--link
+                servicos__button
+              "
+            >
+              Mais<i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="servicos__modal">
+              <div class="servicos__modal-content">
+                <h4 class="servicos__modal-title">Web Design</h4>
+                <i class="uil uil-times servicos__modal-close"></i>
+
+                <ul class="servicos__modal-servicos grid">
+                  <li class="servicos__modal-servico">
+                    <i class="uil uil-check servicos__modal-icon"></i>
+                    <p>Desenvolvimento da interface.</p>
+                  </li>
+                  <li class="servicos__modal-servico">
+                    <i class="uil uil-check servicos__modal-icon"></i>
+                    <p>Pagina web.</p>
+                  </li>
+                  <li class="servicos__modal-servico">
+                    <i class="uil uil-check servicos__modal-icon"></i>
+                    <p>Experiência UX.</p>
+                  </li>
+                  <li class="servicos__modal-servico">
+                    <i class="uil uil-check servicos__modal-icon"></i>
+                    <p>Site de acordo com a cultura da empresa.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="servicos__content">
+            <div>
+              <i class="uil uil-palette servicos__icon"></i>
+              <h3 class="servicos__title">Identidade Visual</h3>
+            </div>
+
+            <span
+              class="
+                button button--flex button--small button--link
+                servicos__button
+              "
+            >
+              Mais<i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="servicos__modal">
+              <div class="servicos__modal-content">
+                <h4 class="servicos__modal-title">Design Gráfico</h4>
+                <i class="uil uil-times servicos__modal-close"></i>
+
+                <ul class="servicos__modal-servicos grid">
+                  <li class="servicos__modal-servico">
+                    <i class="uil uil-check servicos__modal-icon"></i>
+                    <p>Branding.</p>
+                  </li>
+                  <li class="servicos__modal-servico">
+                    <i class="uil uil-check servicos__modal-icon"></i>
+                    <p>Criação da identidade visual.</p>
+                  </li>
+                  <li class="servicos__modal-servico">
+                    <i class="uil uil-check servicos__modal-icon"></i>
+                    <p>Mídias sociais (Postagens para redes sociais)</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfólio</h2>
+        <span class="section__subtitle">Meus trabalhos</span>
+
+        <div class="portfolio__container container">
+          <div>
+            <div class="portfolio__content grid">
+              <img
+                src="assets/img/Ativaar!.JPG"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Ativaar!</h3>
+                <p class="portfolio__description">
+                  Site modelo para empresa privada 'NTL'<br />Responsivo e com
+                  pequenas animações.
+                </p>
+                <a
+                  href="https://drielixxiii.github.io/Siterh-main/home.html"
+                  target="_blank"
+                  class="button buttun--flex button--small portfolio__button"
+                  >Ver<i class="uil uil-arrow-right button__icon"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid">
+                <img
+                  src="assets/img/ntl-duo color.JPG"
+                  alt=""
+                  class="portfolio__img"
+                />
+  
+                <div class="portfolio__data">
+                  <h3 class="portfolio__title">NTL - Nova Tecnologia</h3>
+                  <p class="portfolio__description">
+                    Site modelo para empresa privada 'NTL'<br />Responsivo e com
+                    pequenas animações.
+                  </p>
+                  <a
+                    href="https://fillipyp.github.io/ntlatualizado-main/home.html"
+                    target="_blank"
+                    class="button buttun--flex button--small portfolio__button"
+                    >Ver<i class="uil uil-arrow-right button__icon"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div class="portfolio__content grid">
+                <img
+                  src="assets/img/NTL.JPG"
+                  alt=""
+                  class="portfolio__img"
+                />
+  
+                <div class="portfolio__data">
+                  <h3 class="portfolio__title">NTL - Nova Tecnologia</h3>
+                  <p class="portfolio__description">
+                    Site modelo para empresa privada 'NTL'<br />Responsivo e com
+                    pequenas animações.
+                  </p>
+                  <a
+                    href="https://drielixxiii.github.io/NTL/index.html"
+                    target="_blank"
+                    class="button buttun--flex button--small portfolio__button"
+                    >Ver<i class="uil uil-arrow-right button__icon"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div class="portfolio__content grid">
+                <img
+                  src="assets/img/Ativaar!.JPG"
+                  alt=""
+                  class="portfolio__img"
+                />
+  
+                <div class="portfolio__data">
+                  <h3 class="portfolio__title">Ativaar!</h3>
+                  <p class="portfolio__description">
+                    Site modelo para empresa privada 'NTL'<br />Responsivo e com
+                    pequenas animações.
+                  </p>
+                  <a
+                    href="https://drielixxiii.github.io/Siterh-main/home.html"
+                    target="_blank"
+                    class="button buttun--flex button--small portfolio__button"
+                    >Ver<i class="uil uil-arrow-right button__icon"></i
+                  ></a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
