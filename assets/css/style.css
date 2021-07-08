@@ -245,6 +245,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .home__blob-img {
     width: 170px;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, .15);
 }
 
 .home__data {
