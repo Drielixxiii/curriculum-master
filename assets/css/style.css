@@ -213,6 +213,10 @@ body::-webkit-scrollbar-thumb:hover {
     bottom: 0;
 }
 
+.active-link {
+    color: var(--first-color);
+}
+
 .home__container {
     gap: 1rem;
 }
