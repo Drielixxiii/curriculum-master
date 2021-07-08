@@ -142,7 +142,7 @@
         <h2 class="section__title">Sobre mim</h2>
         <span class="section__subtitle">Introdução</span>
         <div class="sobre__container container grid">
-          <img src="assets/img/sobre.jpg" alt="" class="sobre__img" />
+          <img src="assets/img/eu.jpeg" alt="" class="sobre__img" />
           <div class="sobre__data">
             <p class="sobre__description">
               Web developer com experiência em tecnologias HTML, CSS e JS.
@@ -514,9 +514,9 @@
         <h2 class="section__title">Portfólio</h2>
         <span class="section__subtitle">Meus trabalhos</span>
 
-        <div class="portfolio__container container">
-          <div>
-            <div class="portfolio__content grid">
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <div class="portfolio__content grid swiper-slide">
               <img
                 src="assets/img/Ativaar!.JPG"
                 alt=""
@@ -538,7 +538,7 @@
               </div>
             </div>
 
-            <div class="portfolio__content grid">
+            <div class="portfolio__content grid swiper-slide">
               <img
                 src="assets/img/ntl-duo color.JPG"
                 alt=""
@@ -560,7 +560,7 @@
               </div>
             </div>
 
-            <div class="portfolio__content grid">
+            <div class="portfolio__content grid swiper-slide">
               <img src="assets/img/NTL.JPG" alt="" class="portfolio__img" />
 
               <div class="portfolio__data">
@@ -578,7 +578,7 @@
               </div>
             </div>
 
-            <div class="portfolio__content grid">
+            <div class="portfolio__content grid swiper-slide">
               <img
                 src="assets/img/ntl-cinza.JPG"
                 alt=""
@@ -600,6 +600,15 @@
               </div>
             </div>
           </div>
+
+          <div class="swiper-button-next">
+              <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+          <div class="swiper-button-prev">
+              <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+
+          <div class="swiper-pagination"></div>
         </div>
       </section>
     </main>
