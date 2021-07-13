@@ -491,7 +491,7 @@ body::-webkit-scrollbar-thumb:hover {
 /* .habilidades__close, .habilidades__lista {
     height: 0;
     overflow: hidden;
-}
+}*/
 
 .habilidades__open, .habilidades__lista {
     height: max-content;
@@ -500,7 +500,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .habilidades__open .habilidades__arrow {
     transform: rotate(-180deg);
-} */
+} 
 
 /* QUALIFICAÇÕES */
 
