@@ -500,7 +500,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .habilidades__open .habilidades__arrow {
     transform: rotate(-180deg);
-} 
+}
 
 /* QUALIFICAÇÕES */
 
@@ -864,6 +864,24 @@ body::-webkit-scrollbar-thumb:hover {
 
 .show-scroll {
     bottom: 5rem;
+}
+
+.compartilhar__info {
+    display: flex;
+    margin-bottom: var(--mb-0-75);
+}
+
+.compartilhar__icon {
+    font-size: 2rem;
+    color: var(--first-color);
+    margin-right: var(--mb-0-75);
+}
+
+.compartilhar-info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-0-25);
+    /* margin-left: var(--mb-0-25); */
 }
 
 /* DISPOSITIVOS PEQUENOS */
