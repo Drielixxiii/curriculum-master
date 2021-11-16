@@ -934,9 +934,12 @@ body::-webkit-scrollbar-thumb:hover {
         order: 1;
         justify-self: center;
     }
-    .sobre__container, .habilidades__container, .portfolio__content, .contato__container, .footer__container {
+    .habilidades__container, .portfolio__content, .contato__container, .footer__container {
         grid-template-columns: repeat(2, 1fr);
     }
+    /* .sobre__container {
+        grid-template-columns: repeat(2, 1fr);
+    } */
     .qualificacao__section {
         display: grid;
         grid-template-columns: .6fr;
@@ -1001,15 +1004,15 @@ body::-webkit-scrollbar-thumb:hover {
     .sobre__img {
         width: 350px;
     }
-    .sobre__description {
+    /* .sobre__description {
         text-align: initial;
-    }
+    } */
     .sobre__info {
         justify-content: space-between;
     }
-    .sobre__buttons {
+    /* .sobre__buttons {
         justify-content: initial;
-    }
+    } */
     .qualificacao__tabs {
         justify-content: center;
     }
