@@ -91,6 +91,14 @@ modalCloses.forEach((modalClose) => {
   });
 });
 
+document.addEventListener("click", (event) => {
+  if (event.target.classList.contains("active-modal")) {
+    modalViews.forEach((modalView) => {
+      modalView.classList.remove("active-modal");
+    });
+  } 
+});
+
 // PORTFOLIO
 let swiper = new Swiper(".portfolio__container", {
   cssMode: true,
